@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <!-- Link CSS on Local -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="icon" href="logo/tab-logo.png">
+    <title>Ecommerce - Bootstrap</title>
+</head>
+<body>
+    <!-- Menu Bar -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-transparent menu-bar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="logo/cropped-logo-red.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav w-100 nav justify-content-end fs-6 fw-bold text-uppercase">
+                                <li class="nav-item px-lg-4"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="men.html">Men</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="women.html">Women</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="bags.html">Bags</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="accessories.html">Accessories</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="suit.html">Suit</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="dress.html">Dress</a></li>
+                                        <li><a class="dropdown-item fw-bold " href="shoes-sandal.html">Shoes & Sandal</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user"></i> Customer Area</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="login.html">Login</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="register.html">Register</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="cart.html">Cart</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="Wishlist.html">Wishlist</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="order.html">Order</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="contact.html">Contact</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="service.html">Services</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="gallery.html">Gallery</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End Menu Bar -->
+
+
+    <!-- Breadcrumb Section -->
+    <div class="container-fluid breadcrumb-section" style="background-image: url('img/Banner/banner-2.jpeg');">
+        <div class="row">
+            <div class="col-12 breadcrumb-content">
+                <h3>Contct Us</h3>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                      <li class="breadcrumb-item text-white"><a href="index.html" class="text-white">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Contct Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Section -->
+    
+    
+    <!-- Contact Gateway -->
+    <section class="containe-fluid contact-gateway">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-5">
+                    <div class="contact-box text-center">
+                        <i class="fas fa-phone fs-1 text-danger"></i>
+                        <h4 class="fs-5 py-3 fw-bold">Open Time</h4>
+                        <p>023 999 9999 / 096 999 9999</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-5">
+                    <div class="contact-box text-center">
+                        <i class="fas fa-map-marker-alt fs-1 text-danger"></i>
+                        <h4 class="fs-5 py-3 fw-bold">Open Time</h4>
+                        <p>H320 Road 310 Cambodia</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-5">
+                    <div class="contact-box text-center">
+                        <i class="far fa-clock fs-1 text-danger"></i>
+                        <h4 class="fs-5 py-3 fw-bold">Open Time</h4>
+                        <p>10:00 am to 23:00 pm</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-5">
+                    <div class="contact-box text-center">
+                        <i class="far fa-envelope fs-1 text-danger"></i>
+                        <h4 class="fs-5 py-3 fw-bold">Open Time</h4>
+                        <p>ogani.business@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contect Gateway -->
+
+
+    <!-- Google Maps Section -->
+    <section class="containe-fluid google-maps">
+        <div class="row">
+            <div class="col-12 map-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7706603336383!2d104.88850131490561!3d11.568291891787132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRUPP%20(Royal%20University%20of%20Phnom%20Penh)!5e0!3m2!1sen!2skh!4v1666187363499!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">        
+                </iframe>        
+            </div>
+        </div>
+    </section>
+    <!-- End Google Maps Section -->
+    
+
+    <!-- Leave Message Section -->
+    <section class="containe-fluid survey-message">
+        <div class="container">
+            <div class="row">
+                <form action="index.html">
+                    <div class="row mb-5">
+                        <h3 class="text-center fs-2 fw-bold text-uppercase">Leave Message</h3>
+                        <div class="hr"></div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-6 mb-md-0 mb-4">
+                            <input type="text" name="name" id="name" placeholder="Your Name" class="form-control">
+                        </div>
+                        <div class="col-md-6 mb-md-0 mb-2">
+                            <input type="email" name="email" id="email" placeholder="Your Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <textarea name="message" id="message" placeholder="Your Message" class="form-control" style="resize: none; min-height:150px; max-height: 150px;"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12 row">
+                        <div class="btn-submit text-center">
+                            <button type="submit" class="btn btn-primary btn-message">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Leave Message Section -->
+
+
+    <!-- Footer Section -->
+    <footer class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">About Us</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>H1200, St1300, Sangkat Boeung Keng Kang II, Khan Boeung Keng Kang, Phnom Penh, Cambodia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>+(855) 23 999 9999</p>
+                                    <p>+(855) 96 999 9999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>LT-Fashion.business@gmail.com</p>
+                                    <p>putheara768@gmail.com</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">Twitter Feed</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this </p>
+                                    <p class="tweet-time"><a href="index.html">1h ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this mistakenea of denouncing</p>
+                                    <p class="tweet-time"><a href="index.html">12h ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this mistakenea of denouncing</p>
+                                    <p class="tweet-time"><a href="index.html">1d ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">Photo</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Men Jacket.jpg" target="_blank" style="background-image: url('img/product/Men Jacket.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-4.1.jpg" target="_blank" style="background-image: url('img/product/Men Suit-4.1.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Accessories-13.jpg" target="_blank" style="background-image: url('img/product/Accessories-13.jpg');"></a></div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Party Shirt-1.jpg" target="_blank" style="background-image: url('img/product/Party Shirt-1.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men T-Shirt-3.jpg" target="_blank" style="background-image: url('img/product/Men T-Shirt-3.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-3.2.jpg" target="_blank" style="background-image: url('img/product/Men Suit-3.2.jpg');"></a></div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-2.2.jpg" target="_blank" style="background-image: url('img/product/Men Suit-2.2.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-3.jpg" target="_blank" style="background-image: url('img/product/Men Suit-3.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Accessories-8.jpg" target="_blank" style="background-image: url('img/product/Accessories-8.jpg');"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+   <!-- End Footer Section -->
+        
+    <!-- End Policy Banner -->
+</body>
+</html>
+<!-- BOOSTRAP JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Link Local -->
+<!-- <script src="js/bootstrap.bundle.min.js"></script> -->

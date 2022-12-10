@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <!-- Link CSS on Local -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="icon" href="logo/tab-logo.png">
+    <title>Ecommerce - Bootstrap</title>
+</head>
+<body>
+    <!-- Menu Bar -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-transparent menu-bar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="logo/cropped-logo-red.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav w-100 nav justify-content-end fs-6 fw-bold text-uppercase">
+                                <li class="nav-item px-lg-4"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="men.html">Men</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="women.html">Women</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="bags.html">Bags</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="accessories.html">Accessories</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="suit.html">Suit</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="dress.html">Dress</a></li>
+                                        <li><a class="dropdown-item fw-bold " href="shoes-sandal.html">Shoes & Sandal</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user"></i> Customer Area</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="login.html">Login</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="register.html">Register</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="cart.html">Cart</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="Wishlist.html">Wishlist</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="order.html">Order</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="contact.html">Contact</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="service.html">Services</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="gallery.html">Gallery</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End Menu Bar -->
+
+
+    <!-- Breadcrumb Section -->
+    <div class="container-fluid breadcrumb-section" style="background-image: url('img/Banner/banner-2.jpeg');">
+        <div class="row">
+            <div class="col-12 breadcrumb-content">
+                <h3>Men</h3>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                      <li class="breadcrumb-item text-white"><a href="index.html" class="text-white">Home</a></li>
+                      <li class="breadcrumb-item text-white"><a href="shop.html" class="text-white">Shop</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Men</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Section -->
+    
+    <!-- Product Item Section -->
+    <section class="container-fluid product-item">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row px-0">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Jacket.jpg" class="card-img-to feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$150.00</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Special Edition's Watches</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Jacket-2.jpg" class="card-img-to feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$100.50</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Carbon-Fiber Watches</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-2.1.jpg" class="card-img-to feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$190.00</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Aluminmum Watches</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-2.2.jpg" class="card-img-to feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$65.00</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Brown Skin Wallet</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-3.jpg" class="card-img-to feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$260.00</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Men Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-3.1.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$85.00</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Women Sand Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-3.2.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$105.15</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Women Red Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-4.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$168.99</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-4.1.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$168.99</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Men Dark Brown Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men Suit-4.2.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$168.99</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men-14.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$168.99</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Men Dark Brown Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 feature-item">
+                            <div class="card">
+                                <img src="img/product/Men-15.jpg" class="card-img-top feature-img">
+                                <div class="card-body feature-txt">
+                                    <h5 class="card-text feature-price">$168.99</h5>
+                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-12 px-md-3 px-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Cart</h4>
+                                    <hr>
+                                    <p class="card-text">The cart is empty</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12 px-md-3 px-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Categories</h4>
+                                    <hr>
+                                    <p class="card-text"><a href="men.html" class="categories-text">Men (9)</a></p>
+                                    <p class="card-text"><a href="women.html" class="categories-text">Women (7)</a></p>
+                                    <p class="card-text"><a href="bags.html" class="categories-text">Bags (8)</a></p>
+                                    <p class="card-text"><a href="accessories.html" class="categories-text">Accessories (12)</a></p>
+                                    <p class="card-text"><a href="shoe-sanday.html" class="categories-text">Shoes & Sandal (10)</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12 px-md-3 px-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Best Seller</h4>
+                                    <hr class="mb-4 w-100">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-12 px-lg-3 px-3 feature-item">
+                                            <div class="card">
+                                                <img src="img/product/Men-10.jpg" class="card-img-top feature-img">
+                                                <div class="card-body feature-txt">
+                                                    <h5 class="card-text feature-price">$168.99</h5>
+                                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-12 px-lg-3 px-3 feature-item">
+                                            <div class="card">
+                                                <img src="img/product/Men-11.jpg" class="card-img-top feature-img">
+                                                <div class="card-body feature-txt">
+                                                    <h5 class="card-text feature-price">$168.99</h5>
+                                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-12 px-md-3 px-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Best Rating</h4>
+                                    <hr class="mb-4 w-100">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-12 px-lg-3 px-3 feature-item">
+                                            <div class="card">
+                                                <img src="img/product/Men-15.jpg" class="card-img-top feature-img">
+                                                <div class="card-body feature-txt">
+                                                    <h5 class="card-text feature-price">$168.99</h5>
+                                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-12 px-lg-3 px-3 feature-item">
+                                            <div class="card">
+                                                <img src="img/product/Men-14.jpg" class="card-img-top feature-img">
+                                                <div class="card-body feature-txt">
+                                                    <h5 class="card-text feature-price">$168.99</h5>
+                                                    <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                                                    <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Product ITem Section -->
+
+    <!-- Footer Section -->
+    <footer class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">About Us</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 my-auto footer-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>H1200, St1300, Sangkat Boeung Keng Kang II, Khan Boeung Keng Kang, Phnom Penh, Cambodia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 my-auto footer-icon">
+                                    <i class="fas fa-phone"></i>
+                              </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>+(855) 23 999 9999</p>
+                                    <p>+(855) 96 999 9999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 my-auto footer-icon">
+                                    <i class="fas fa-globe"></i>
+                              </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>LT-Fashion.business@gmail.com</p>
+                                    <p>putheara768@gmail.com</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">Twitter Feed</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 my-auto footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this </p>
+                                    <p class="tweet-time"><a href="index.html">1h ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 my-auto footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this mistakenea of denouncing</p>
+                                    <p class="tweet-time"><a href="index.html">12h ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 my-auto footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this mistakenea of denouncing</p>
+                                    <p class="tweet-time"><a href="index.html">1d ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">Photo</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Men Jacket.jpg" target="_blank" style="background-image: url('img/product/Men Jacket.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-4.1.jpg" target="_blank" style="background-image: url('img/product/Men Suit-4.1.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Accessories-13.jpg" target="_blank" style="background-image: url('img/product/Accessories-13.jpg');"></a></div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Party Shirt-1.jpg" target="_blank" style="background-image: url('img/product/Party Shirt-1.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men T-Shirt-3.jpg" target="_blank" style="background-image: url('img/product/Men T-Shirt-3.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-3.2.jpg" target="_blank" style="background-image: url('img/product/Men Suit-3.2.jpg');"></a></div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-2.2.jpg" target="_blank" style="background-image: url('img/product/Men Suit-2.2.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-3.jpg" target="_blank" style="background-image: url('img/product/Men Suit-3.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Accessories-8.jpg" target="_blank" style="background-image: url('img/product/Accessories-8.jpg');"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+   <!-- End Footer Section -->
+        
+    <!-- End Policy Banner -->
+</body>
+</html>
+<!-- BOOSTRAP JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Link Local -->
+<!-- <script src="js/bootstrap.bundle.min.js"></script> -->

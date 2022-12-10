@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <!-- Link CSS on Local -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="icon" href="logo/tab-logo.png">
+    <title>Ecommerce - Bootstrap</title>
+</head>
+<body>
+    <!-- Menu Bar -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-transparent menu-bar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="logo/cropped-logo-red.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav w-100 nav justify-content-end fs-6 fw-bold text-uppercase">
+                                <li class="nav-item px-lg-4"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="men.html">Men</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="women.html">Women</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="bags.html">Bags</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="accessories.html">Accessories</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="suit.html">Suit</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="dress.html">Dress</a></li>
+                                        <li><a class="dropdown-item fw-bold " href="shoes-sandal.html">Shoes & Sandal</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user"></i> Customer Area</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="login.html">Login</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="register.html">Register</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="cart.html">Cart</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="Wishlist.html">Wishlist</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="order.html">Order</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4 dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="contact.html">Contact</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="service.html">Services</a></li>
+                                        <li><a class="dropdown-item fw-bold border-1 border-bottom border-opacity-75" href="gallery.html">Gallery</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-lg-4"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End Menu Bar -->
+
+
+    <!-- Slider Section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 slider">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item slider-item active">
+                            <img src="img/Men T-Shirt-2.jpg" class="d-block w-100">
+                            <div class="slider-caption">
+                                <h4>best quality fashion</h4>
+                                <h2>Amazing Discount 70%, From 23rd to 30th October, 2022</h2>
+                                <a href="shop.html" class="btn-shop">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item slider-item">
+                            <img src="img/Women Dress-2.jpg" class="d-block w-100">
+                            <div class="slider-caption">
+                                <h4>best quality fashion</h4>
+                                <h2>Amazing Discount 70%, From 31th October to 10th November, 2022</h2>
+                                <a href="shop.html" class="btn-shop">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item slider-item">
+                            <img src="img/Party Shirt.jpg" class="d-block w-100">
+                            <div class="slider-caption">
+                                <h4>best quality fashion</h4>
+                                <h2>Amazing Discount 70%, From 28th October to 15th November, 2022</h2>
+                                <a href="shop.html" class="btn-shop">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Section -->
+
+    
+    <!-- Policy Banner -->
+    <div class="container-fluid d-md-block d-none">
+        <div class="container">
+            <div class="row p-xl-5 p-lg-4 py-md-5 policy">
+                <div class="col-md-4 policy-box">
+                    <div class="d-flex align-items-center px-xl-5 px-lg-3 pe-md-2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 ps-lg-0">
+                                <div class="flex-shrink-0 policy-icon">
+                                    <img src="icon/van.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 ps-lg-1 px-md-0">
+                                <div class="flex-grow-1 ms-3 policy-txt">
+                                    <h4 class="fs-5 fw-bold">Free Shipping</h4>
+                                    <p class="text-secondary text-opacity-75 fs-6">Free Shipping on order</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 policy-box">
+                    <div class="d-flex align-items-center px-xl-5 px-lg-3 pe-md-2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 ps-lg-0">
+                                <div class="flex-shrink-0 policy-icon">
+                                    <img src="icon/customer-service.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 ps-lg-1 px-md-0">
+                                <div class="flex-grow-1 ms-3 policy-txt">
+                                    <h4 class="fs-5 fw-bold">Dedicated Support</h4>
+                                    <p class="text-secondary text-opacity-75 fs-6">Quick Response 24/7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 policy-box">
+                    <div class="d-flex align-items-center px-xl-5 px-lg-3 pe-md-2">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 ps-lg-0">
+                                <div class="flex-shrink-0 policy-icon">
+                                    <img src="icon/money.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 ps-lg-1 px-md-0">
+                                <div class="flex-grow-1 ms-3 policy-txt">
+                                    <h4 class="fs-5 fw-bold">100% Money Back</h4>
+                                    <p class="text-secondary text-opacity-75 fs-6">if the item didn't suit you</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Banner Section -->
+    <section class="container-fluid banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 banner-img ps-lg-0">
+                    <div class="banner-img-box" style="background-image: url('img/banner/h1-banner1.jpg');"></div>
+                    <div class="banner-txt-box">
+                        <h1><a href="#">Bag Collection</a></h1>
+                        <p><a href="#">Sale off 50%</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12 banner-img-2">
+                            <div class="banner-img-box" style="background-image: url('img/banner/h1-banner4.jpg');"></div>
+                            <div class="banner-txt-box">
+                                <h1><a href="#">T-Shirt Collection</a></h1>
+                                <p><a href="#">Sale off 50%</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 banner-img-2">
+                            <div class="banner-img-box" style="background-image: url('img/banner/h1-banner2.jpg');"></div>
+                            <div class="banner-txt-box">
+                                <h1><a href="#">Dress Collection</a></h1>
+                                <p><a href="#">Sale off 50%</a></p>
+                            </div>
+                        </div>
+                        <div class="col-12 banner-img-3">
+                            <div class="banner-img-box" style="background-image: url('img/banner/h1-banner3.jpg');"></div>
+                            <div class="banner-txt-box">
+                                <h1><a href="#">Mini backpack</a></h1>
+                                <p><a href="#">Sale off 50%</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Section -->
+
+
+    <!-- Product Featured Section -->
+    <section class="container-fluid product-feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title">
+                    <h3 class="text-center fs-3 text-uppercase fw-bold">Product Featured</h3>
+                    <div class="hr"></div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-14.jpg" class="card-img-to feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$150.00</h5>
+                            <h4 class="card-title feature-title"><a href="#">Special Edition's Watches</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-13.jpg" class="card-img-to feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$100.50</h5>
+                            <h4 class="card-title feature-title"><a href="#">Carbon-Fiber Watches</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-12.jpg" class="card-img-to feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$190.00</h5>
+                            <h4 class="card-title feature-title"><a href="#">Aluminmum Watches</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-11.jpg" class="card-img-to feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$65.00</h5>
+                            <h4 class="card-title feature-title"><a href="#">Brown Skin Wallet</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-10.jpg" class="card-img-to feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$260.00</h5>
+                            <h4 class="card-title feature-title"><a href="#">Men Sandal</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-9.jpg" class="card-img-top feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$85.00</h5>
+                            <h4 class="card-title feature-title"><a href="#">Women Sand Sandal</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-8.jpg" class="card-img-top feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$105.15</h5>
+                            <h4 class="card-title feature-title"><a href="#">Women Red Sandal</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item">
+                    <div class="card">
+                        <img src="img/product/Accessories-7.jpg" class="card-img-top feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$168.99</h5>
+                            <h4 class="card-title feature-title"><a href="#">Limited Edition Sandal</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 feature-item d-xl-none d-lg-block d-none">
+                    <div class="card">
+                        <img src="img/product/Accessories-6.jpg" class="card-img-top feature-img">
+                        <div class="card-body feature-txt">
+                            <h5 class="card-text feature-price">$168.99</h5>
+                            <h4 class="card-title feature-title"><a href="#">Men Dark Brown Sandal</a></h4>
+                            <a href="cart.html" class="btn btn-danger feature-btn-cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Product Featured Section -->
+
+
+    <!-- Best Seller Section -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 best-seller">
+                <div class="best-seller-background" style="background-image: url('img/Banner/background.jpg');"></div>
+                <div class="container best-seller-banner">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-5 col-12 best-seller-picture">
+                            <img src="img/Banner/p1-2.jpg" alt="">
+                        </div>
+                        <div class="col-xl-8 col-lg-7 col-12 best-seller-mark ">
+                            <h4>Too Green</h4>
+                            <p>$34.00 - $54.00</p>
+                            <div class="d-flex mb-3">
+                                <div class="me-auto"><p>Available: 48</p></div>
+                                <div><p>Already Sold: 52</p></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger row-progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                            </div>
+                            <a href="" class="btn btn-view-product">View Product</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Best Seller Section -->
+
+
+    <!-- The Blog Section -->
+    <section class="container-fluid blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title">
+                    <h3 class="text-center fs-3 text-uppercase fw-bold">From The Blog</h3>
+                    <div class="hr"></div>
+                </div>
+                <div class="col-md-6 col-12 blog-item">
+                    <div class="card blog-card">
+                        <a href="blog.html"><img src="img/Women Dress-3.jpg" class="card-img-top"></a>
+                        <div class="card-body"> 
+                            <div class="card-title"><h5>Peter Thiel would likely make $5 billion IRA withdrawal in 2022 under House bill</h5></div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat gravida lectus, at...</p>
+                            </div>
+                            <a href="blog.html" class="btn btn-read-more">Read more: Peter Thiel...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 blog-item">
+                    <div class="card blog-card">
+                        <a href="blog.html"><img src="img/Women Dress-2.jpg" class="card-img-top"></a>
+                        <div class="card-body"> 
+                            <div class="card-title"><h5>Peter Thiel would likely make $5 billion IRA withdrawal in 2022 under House bill</h5></div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi volutpat gravida lectus, at...</p>
+                            </div>
+                            <a href="blog.html" class="btn btn-read-more">Read more: Peter Thiel...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End The Blog Section -->
+
+
+    <!-- Follow on Instagram -->
+    <section class="containef-fluid instagram">
+        <div class="row">
+            <div class="col-12 title">
+                <h3 class="text-center fs-3 text-uppercase fw-bold">Follow us on Instagram</h3>
+                <div class="hr"></div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-12 instagram-photo">
+                <a href="img/product/Accessories-1.jpg" target="_blank"><img src="img/product/Accessories-1.jpg"></a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-12 instagram-photo">
+                <a href="img/product/Accessories-2.jpg" target="_blank"><img src="img/product/Accessories-2.jpg"></a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-12 instagram-photo">
+                <a href="img/product/Accessories-3.jpg" target="_blank"><img src="img/product/Accessories-3.jpg"></a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-12 instagram-photo">
+                <a href="img/product/Accessories-4.jpg" target="_blank"><img src="img/product/Accessories-4.jpg"></a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-12 instagram-photo">
+                <a href="img/product/Accessories-5.jpg" target="_blank"><img src="img/product/Accessories-5.jpg"></a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-12 instagram-photo">
+                <a href="img/product/Accessories-6.jpg" target="_blank"><img src="img/product/Accessories-6.jpg"></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Follow On Instagram -->
+
+    
+    <!-- Footer Section -->
+    <footer class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">About Us</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>H1200, St1300, Sangkat Boeung Keng Kang II, Khan Boeung Keng Kang, Phnom Penh, Cambodia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>+(855) 23 999 9999</p>
+                                    <p>+(855) 96 999 9999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>LT-Fashion.business@gmail.com</p>
+                                    <p>putheara768@gmail.com</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">Twitter Feed</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this </p>
+                                    <p class="tweet-time"><a href="index.html">1h ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this mistakenea of denouncing</p>
+                                    <p class="tweet-time"><a href="index.html">12h ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3 footer-txt">
+                                    <p>Lorem must explain to you how all this mistakenea of denouncing</p>
+                                    <p class="tweet-time"><a href="index.html">1d ago</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer-item">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><h4 class="fs-5 fw-bold text-uppercase text-lg-start text-center">Photo</h4></div>
+                        <div class="p-2">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Men Jacket.jpg" target="_blank" style="background-image: url('img/product/Men Jacket.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-4.1.jpg" target="_blank" style="background-image: url('img/product/Men Suit-4.1.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Accessories-13.jpg" target="_blank" style="background-image: url('img/product/Accessories-13.jpg');"></a></div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Party Shirt-1.jpg" target="_blank" style="background-image: url('img/product/Party Shirt-1.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men T-Shirt-3.jpg" target="_blank" style="background-image: url('img/product/Men T-Shirt-3.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-3.2.jpg" target="_blank" style="background-image: url('img/product/Men Suit-3.2.jpg');"></a></div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-2.2.jpg" target="_blank" style="background-image: url('img/product/Men Suit-2.2.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Men Suit-3.jpg" target="_blank" style="background-image: url('img/product/Men Suit-3.jpg');"></a></div>
+                                    <div class="p-0 footer-img"><a href="img/product/Accessories-8.jpg" target="_blank" style="background-image: url('img/product/Accessories-8.jpg');"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+   <!-- End Footer Section -->
+        
+    <!-- End Policy Banner -->
+</body>
+</html>
+<!-- BOOSTRAP JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Link Local -->
+<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
